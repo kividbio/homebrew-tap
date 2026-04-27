@@ -16,7 +16,8 @@ class Kividb < Formula
   end
   
   def install
-    bin.install "kividb/kividb"
+    bin.install "kividb"
+    doc.install "LICENSE"
   end
   
   service do
@@ -27,6 +28,6 @@ class Kividb < Formula
   end
   
   test do
-    assert_match "KiviDB", shell_output("#{bin}/kividb --version", 0)
+    system "#{bin}/kividb", "--version"
   end
 end
