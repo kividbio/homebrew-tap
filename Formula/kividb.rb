@@ -7,11 +7,11 @@ class Kividb < Formula
   on_macos do
     on_arm do
       url "https://releases.kividb.io/v1.0.4-rc1/kividb-darwin-aarch64.tar.gz"
-      sha256 "0e538b6704232dde26bc8051b16c483b6694c0c54507feb08cdb29c716a370a5"
+      sha256 "e7e5366b7173d614a06abce2ddcae9a7ff08417a3240d18371340e8d97bf94f7"
     end
     on_intel do
       url "https://releases.kividb.io/v1.0.4-rc1/kividb-darwin-x86_64.tar.gz"
-      sha256 "03e20d3340898b317e1dd7e2d673e860311fd1fdb502ab28498c85d337e3d2a4"
+      sha256 "5b77c9722e69afa522c17c38ea9ef63d1b60cdebabea29448144400c9de76be9"
     end
   end
 
