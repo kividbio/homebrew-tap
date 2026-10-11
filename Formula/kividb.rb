@@ -2,16 +2,16 @@ class Kividb < Formula
   desc "A fast Redis-compatible in-memory store written in Rust"
   homepage "https://kividb.io/"
   license "LicenseRef-EULA"
-  version "1.0.5"
+  version "1.0.6-rc1"
 
   on_macos do
     on_arm do
-      url "https://releases.kividb.io/v1.0.5/kividb-darwin-aarch64.tar.gz"
-      sha256 "b7ece9cf55775a6c541004293d90273175218dc2e6995b23ec4169986e510850"
+      url "https://releases.kividb.io/v1.0.6-rc1/kividb-darwin-aarch64.tar.gz"
+      sha256 "3a3bcce45aa55217dd7adeac739973cae708fd9316f79ff0707fc4db94b882ae"
     end
     on_intel do
-      url "https://releases.kividb.io/v1.0.5/kividb-darwin-x86_64.tar.gz"
-      sha256 "450b64b7d7355fb6c7881f8a19a862b84fcde351bd97552383efa98f447532e1"
+      url "https://releases.kividb.io/v1.0.6-rc1/kividb-darwin-x86_64.tar.gz"
+      sha256 "1ddda27dc0dd036ece74b8d43b835fdab479b431a323155ec51dd5890439a644"
     end
   end
 
